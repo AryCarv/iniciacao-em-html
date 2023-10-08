@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="horario_de_atendimento.html">Horário de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="logo">
+                <img src="img/logo-clínica-veterinária.png" alt="logo da clínica veterinária" width="200"/>
+                <div class="nomeClinica">
+                    <span>PetAmigo</span>
+                </div>
+
+            </div>          
+            <div class="header">
+                <img src="img/gato-e-cachorro.jpg" alt="gato e cachorro" height="100%"/>
+            </div>
+    
+            <div class="content">
+                <h1>Veja aqui como nos encontrar</h1>
+
+                <p>
+                    Encontrar a nossa clínica é fácil-fácil, veja nossos contatos e como nos localizar no maps do google. Você também pode enviar uma mensagem usando o formulário abaixo.
+                </p>
+                <br>
+                <p>
+                    Clínica <strong>PetAmigo:</strong>
+                    Avenida dos Franceses, nº 184, bairro Lima Verde, Castanhal, cep: 12.456-852, Rio Grande do Norte.
+                </p>
+                <p>
+                    WhatsApp: 00-9999-8888 / 00-9888-7777
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1015362.7812221484!2d-37.172412872314496!3d-6.229299114609261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b1fb69eacb6199%3A0x8f8d2cf76183f7e4!2sCl%C3%ADnica%20Veterin%C3%A1ria%20Santa%20Cruz!5e0!3m2!1spt-BR!2sbr!4v1696359931934!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <br>
+                <form onsubmit="alert('Enviei a mensagem!');" autocomplete="off" target="_blank" method="post">
+                    <fieldset>
+                        <legend>Envie a sua mensagem</legend>
+                        <p>
+                            <label>Nome:</label> <input type="text"/>
+                        </p>
+                        <p>
+                            <label>E-mail:</label> <input type="email"/>
+                        </p>
+                        <p>
+                            <label>Assunto:</label> <input type="text"/>
+                        </p>
+                        <p>
+                            Escreva a sua mensagem!
+                        </p>
+                        <textarea rows="15" cols="40"></textarea><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+            
+            </div>
+    
+            <div class="footer">
+                <p>Clínica PetAmigo<sup>R</sup></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
